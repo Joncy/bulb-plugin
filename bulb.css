@@ -254,7 +254,7 @@ h2 { color: #CCC; }
     transform: rotate(55deg);
   
 }
-
+/*
 @-webkit-keyframes enciende { 
   0% {opacity:.3;}
   
@@ -269,7 +269,7 @@ h2 { color: #CCC; }
   0% {opacity:.3;}
   
   100% {opacity:1;}
-}
+}*/
 #ani{
   
   animation:enciende .9s infinite alternate;
