@@ -40,7 +40,7 @@ h2 { color: #CCC; }
 .circulo{
 
   width: 400px;
-  height: 400px;
+  height: 350px;
  
   margin: 0 0;
   border-radius:100%;
@@ -404,7 +404,7 @@ body {
 .code-container {
     width: 420px; 
     float:left; 
-    margin: 80px 10px;
+    margin: 0 10px;
 }
 
 #terminal {
@@ -443,4 +443,5 @@ body {
 .flex-container {
     display: flex;
     align-content: flex-start;
+    padding: 0 85px;
 }

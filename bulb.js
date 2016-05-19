@@ -17,7 +17,7 @@ button.onclick = function toggleBulbState () {
 
 function setBulbParams (params) {
   if (params.power === 'off') {
-    params = { color: 'E7E7E7' }
+    params = { color: 'white' }
   }
   console.log('set params', params)
 
