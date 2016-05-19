@@ -55,7 +55,7 @@ h2 { color: #CCC; }
   background:#f8e752;
  
   margin: 20px 112px;
-  opacity:.3;
+  opacity:.7;
   animation:enciende .9s infinite alternate;
     -webkit-animation: enciende .9s alternate infinite ;
     animation:  enciende .9s infinite alternate;
