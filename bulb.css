@@ -54,7 +54,7 @@ h2 { color: #CCC; }
   border-radius:100%;
   background:#f8e752;
  
-  margin: 0px 112px;
+  margin: 20px 112px;
   opacity:.3;
   animation:enciende .9s infinite alternate;
     -webkit-animation: enciende .9s alternate infinite ;
@@ -123,7 +123,7 @@ h2 { color: #CCC; }
   height:30px;
   border-radius:100%;
   background:white;
-  margin: 12px 152px;
+  margin: 32px 152px;
 }
 .redo::before{
   content:"";
@@ -141,7 +141,7 @@ h2 { color: #CCC; }
   height:50px;
   background:#bebebe;
  
-  margin:165px 162px;
+  margin:185px 162px;
 }
 .base::before{
   content:"";
@@ -402,7 +402,7 @@ body {
 .code-container {
     width: 420px; 
     float:left; 
-    margin: 0 10px;
+    margin: -50px 10px;
 }
 
 #terminal {
