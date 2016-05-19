@@ -1,39 +1,47 @@
 <head>
-  <title>This is a Netbeast smart light!</title>
+  <title>Netbeast Bulb Plugin</title>
   <link rel="stylesheet" href="bulb.css" media="screen" charset="utf-8">
 </head>
 
-<body style="width: 100%; height: 300px; background-color: white; padding-top: 50px;">
-<div class="flex-container">
-  <div class="bulb-container small" >
-    <div class="circulo">
-        <div class="lamp"><span class="fila"></span></div>
-
-        <div class="redo"></div>
-
-        <div class="base"><span class="base3"</span></div>
-        <div id="ani">
-            <span class="l1"></span>
-            <span class="l2"></span>
-            <span class="l3"></span>
-            <span class="l4"></span>
-            <span class="l5"></span>                      
-        </div>    
+<body style="width: 100%; height: 300px; background-color: #292929; padding-top: 50px;">
+  <div class="top-decoration"></div>
+  <div id="plugin front-end">
+  </div>
+  <div class="bulb-container small">
+    <div class="bulb light">
+      <div id="bulb">
+        <div class="bulb top"></div>
+        <div class="bulb middle-1"></div>
+        <div class="bulb middle-2"></div>
+        <div class="bulb middle-3"></div>
+        <div class="bulb bottom"></div>
+      </div>
+      <div id="base">
+        <div class="screw-top"></div>
+        <div class="screw a"></div>
+        <div class="screw b"></div>
+        <div class="screw a"></div>
+        <div class="screw b"></div>
+        <div class="screw a"></div>
+        <div class="screw b"></div>
+        <div class="screw c"></div>
+        <div class="screw d"></div>
+      </div>
     </div>
   </div>
-    <div class="code-container">
+    <div class="code-container" style="width: 100%; margin: 10px auto; text-align: center; ">
         <div id="terminal">
-            <pre id="console">
-// Set color to your favourite colour
-// and hit START!
+            <pre style="text-align: center;  margin: 0px auto;color: 00FEA5 ">
+// Set color to your favourite colour     
+// and hit START!                          
 // Set power to on or off to switch on/off
-<i class="txt-red">beast</i>(<i class="txt-green">'lights'</i>).<i class="txt-blue">set</i>({
-    <i class="txt-green">color</i>: <i class="txt-green">"<input id="color" type="text" class="color" name="color" value="#9AD74C">"</i>,
-    <i class="txt-green">power</i>: <i class="txt-green">"<input id="power" type="text" class="power" name="power" value="on">"</i>
-})                               
-            </pre>
+
+        <i class="txt-red">beast</i>(<i class="txt-green">'lights'</i>).<i class="txt-blue">set</i>({                      
+          <i class="txt-green">color</i>: <i class="txt-green">"<input id="color" type="text" class="color" name="color" value="#9AD74C" style="color: 00FEA5; background-color: transparent; border: none;">"</i>,        
+          <i class="txt-green">power</i>: <i class="txt-green">"<input id="power" type="text" class="power" name="power" value="on" style="color: 00FEA5; background-color: transparent; border: none;">"</i>         
+        })                               </pre>
         </div>
-        <div class='start-btn' id="run-btn" style="margin-top: 20px;">Go!</div>
+        <div class='start-btn' id="run-btn" style="margin-top: 20px;"><img src="start.png"></img></div>
   </div><!-- wrapper -->
 
   <!-- declares bulb features and methods -->
@@ -44,5 +52,4 @@
   <!-- commented to avoid void requests on our website demo -->
   <!-- uncomment for the real deal -->
   <!--<script type="text/javascript" src="hw-api.js"></script>-->
-    </div>
 </body>

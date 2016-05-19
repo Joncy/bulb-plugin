@@ -21,12 +21,14 @@ function setBulbParams (params) {
   }
   console.log('set params', params)
 
-  var light_rays = ['.l1','.l2','.l3','.l4','.l5',]
+  var bulb_parts = ['.bulb.middle-1', '.bulb.middle-2', '.bulb.middle-3']
 
-  document.querySelector('.lamp').style.background = params.color
+  document.querySelector('.bulb.top').style.boxShadow = '0px 0px 98px ' + params.color
 
-  light_rays.forEach(function (className) {
-    document.querySelector(className).style.background = params.color
+  document.querySelector('.bulb.top').style.backgroundColor = params.color
+  document.querySelector('.bulb.bottom').style.backgroundColor = params.color
+  bulb_parts.forEach(function (className) {
+    document.querySelector(className).style.borderTopColor = params.color
   })
 }
 
