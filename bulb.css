@@ -1,4 +1,6 @@
 
+@import url(//fonts.googleapis.com/css?family=Fira+Sans:700);
+
 body {
   font-family: 'Helvetia Neue', 'Helvetica', Arial;
 }
@@ -365,7 +367,7 @@ body {
 .start-btn{
 
     font-size: 30px;
-    font-family: 'Proxima Nova';
+    font-family: 'Fira Sans';
     text-align: center;
 	display: inline-block;
 	margin:5px;
